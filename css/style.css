@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    font-family: 'Poppins', sans-serif;
+}
+
+span {
+    color: rgb(236, 91, 91);
+}
+
+nav {
+    background-color: rgba(221, 159, 219, 0.719);
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    padding: 30px 0px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    padding: 10px 20px;
+    color: rgba(48, 28, 49, 0.836);
+}
+
+ul li a:hover {
+    background-color: #c316366f;
+    border-radius: 5px;
+    color: rgba(24, 22, 22, 0.623);
+}
+
+.active {
+    background-color: #bb889167;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    border: none;
+    background-color: rgb(236, 153, 195);
+    padding: 5px 15px 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: rgb(241, 228, 217);
+    box-shadow: 1px 2px 7px black;
+    margin-left: 5px;
+}
+
+.btn-primary:hover {
+    background-color: rgba(201, 105, 196, 0.753);
+    color: rgb(78, 57, 57);
+    box-shadow: 2px 2px 7px rgba(14, 12, 12, 0.61);
+}
+
+.banner {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 50px;
+    background-color: rgba(226, 178, 225, 0.404);
+    font-size: 30px;
+}
+
+.banner2 {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 50px;
+    background-color: rgba(146, 98, 145, 0.226);
+    font-size: 30px;
+}
+
+.banner3 {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 50px;
+    background-color: rgba(85, 53, 85, 0.212);
+    font-size: 30px;
+}
+
+.banner4 {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 50px;
+    background-color: rgba(156, 34, 154, 0.192);
+    font-size: 30px;
+}
+
+.text {
+    margin: 100px 0px 0px;
+}
+
+img {
+    height: 83vh;
+}
+
+.padding {
+    margin: 40px 0px 20px;
+    color: rgb(121, 104, 104);
+}
+
+.btn-banner {
+    border: none;
+    background-color: #a9b166;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: rgb(241, 228, 217);
+    box-shadow: 1px 2px 7px black;
+    margin-left: 5px;
+}
+
+.btn-banner:hover {
+    background-color: #E7BAE5;
+    color: rgb(78, 57, 57);
+    box-shadow: 2px 2px 7px rgba(14, 12, 12, 0.61);
+}
